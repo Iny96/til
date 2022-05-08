@@ -1,0 +1,18 @@
+1. 앞으로 git 프로젝트로 만들고 싶은 것
+
+팀 프로젝트로 웹 제작하고 싶습니다. front-end, back-end 팀으로 웹 제작 방향을 회의를 통해 의논하고 서로 잘 소통하며 좋은 프로젝트를 완성하고 싶습니다.
+
+2. 1주차 주요 개념 키워드 적어보기
+
+버전관리- 언제 무엇이 어떻게 누가 바뀌었는지 상태를 나타내는 것
+
+commit- 일종의 스냅샷과 같은 개념으로 바뀐 프로젝트의 부분을 저장하는 것
+
+git 초기화(initialize, init) - git 프로젝트로 설정하는것
+
+Local-repo > Remote-ropo (push)
+Remote-repo > Local-repo (pull)
+
+Remote-repo 프로젝트를  Local-repo로 일종의 다운받는 개념(Clone)
+
+두 repo를 연결하는걸 tracking 
