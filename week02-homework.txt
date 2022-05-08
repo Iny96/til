@@ -1,0 +1,20 @@
+Issue - 누가 작업할지 정하고 버그리포트, 내가 할 작업, 기능 추가 등 여러 방식으로 사용 가능
+Branch - 특정 commit에서 갈라져 나와 작업 가능. 보통 기능별로 이름을 만든다.
+
+작업 할 Branch로 바꾸는걸 checkout이라고 한다. checkout된 branch에만 commit이 반영된다.
+
+Merge - Branch별로 작업한 내용을 병합.
+
+Merge하는 과정에서 같은 파일이 동일한 부분 수정되어 발견되면 Merge Conflict가 발생한다.
+Git이 이 충동을 파악할 수 있도록 파일 내용을 고쳐서 충돌 내역을 보여준다.
+ex)
+<<<<<<<<HEAD
+
+===========
+
+>>>>>>>>(Branch Name)
+
+Conflict를 수정하기 위해서는 최종적으로 반영할 내역으로 수정한 후 merge commit하면 된다.
+
+Tracking이라는 것은 Local repo와 Remote repo의 특정 Branch를 연결한 것이다.
+Tracking 되고있는 Branch의 commit만 반영됨.
